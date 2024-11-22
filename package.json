@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "npm run prepare && next build",
+    "prepare": "echo 'Preparando el entorno'"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.4.1",
